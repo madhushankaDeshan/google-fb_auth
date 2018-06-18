@@ -1,4 +1,10 @@
 
+
+
+
+
+
+
 function onloadFunction() {
     gapi.client.setApiKey('AIzaSyBsHr6JQ84fMQrXJKqBJdtnA6-06Lt4bLs');
     gapi.client.load('plus','v1', function () {});
@@ -31,3 +37,4 @@ window.fbAsyncInit = function() {
     js.src = "https://connect.facebook.net/en_US/sdk.js";
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
+
