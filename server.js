@@ -7,7 +7,7 @@ const cookieParser      =     require('cookie-parser')
 const bodyParser        =     require('body-parser')
 
 const publicPath = path.join(__dirname, '/index.html');
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 4000;
 var app = express();
 var server = http.createServer(app);
 
